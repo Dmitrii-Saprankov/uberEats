@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="header__wrapper container">
+            <a href="index.html" class="header__link"><img class="header__logo" src="images/logo.svg" alt="logo"></a>
+            <nav class="header__navigation">
+                <button class="header__btn">Войти</button>
+
+                <a class="header__bascket" href="#"><img src="images/basket.svg" class="header__img"></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="search__wrapper container">
+            <input name="search" placeholder="Поиск по ресторанам и кухням" type="text" class="search__input">
+        </div>
+
+        <section class="content">
+
+            <div class="content__wrapper container">
+                <h1 class="content__main-heading">Рестораны в Санкт-Петербурге</h1>
+
+                <div class="restaurants"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="pop-up">
+        <div class="pop-up__form">
+            <button class="pop-up__btn">X</button>
+
+            <label for="email">Введите адрес электронной почты</label>
+            <input class="pop-up__form_email" type="email" id="email">
+
+            <label for="email">Введите пароль</label>
+            <input class="pop-up__form_password" type="password" id="password">
+
+            <button class="pop-up__submit">Войти</button>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <a href="#header" class="footer__link"><img class="footer__logo" src="images/white-logo.svg" alt="logo"></a>
+
+            <hr class="footer__line">
+            <!-- <img class="footer__line" src="../UberEats/Images/Rectangle 7.png" alt="line"> -->
+
+            <nav class="navigation">
+                <div class="navigation__menu">
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__paragraph">#UberEats</p>
+                    </a>
+                    <div class="navigation__list">
+                        <a href="#" class="navigation__link"><img class="navigation__item-img" src="images/facebook.svg"
+                                alt="logo"></a>
+                        <a href="#" class="navigation__link"><img class="navigation__item-img" src="images/twitter.svg"
+                                alt="logo"></a>
+                        <a href="#" class="navigation__link"><img class="navigation__item-img"
+                                src="images/instagram.svg" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="navigation__menu">
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Об UberEats</p>
+                    </a>
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Станьте партнёром по доставке</p>
+                    </a>
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Станьте парнёром-рестораном</p>
+                    </a>
+                </div>
+
+                <div class="navigation__menu">
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Все города</p>
+                    </a>
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Цены</p>
+                    </a>
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">Помощь</p>
+                    </a>
+                    <a href="#" class="navigation__link">
+                        <p class="navigation__item-text">FAQs</p>
+                    </a>
+                </div>
+            </nav>
+
+            <img class="footer__line" src="images/Rectangle 7.png" alt="line">
+
+            <div class="downloads">
+                <a href="#" class="downoloads__link"><img src="images/app_store.svg" alt="appstore"></a>
+                <a href="#" class="downoloads__link"><img src="images/android.svg" alt="google play"></a>
+            </div>
+
+            <img class="footer__line" src="../UberEats/Images/Rectangle 7.png" alt="line">
+
+            <div class="copyrights">
+                <p class="copyrights__item">© 2017 Uber Technologies Inc.</p>
+                <p class="copyrights__item">Обработка персональных данных</p>
+                <p class="copyrights__item">Пользовательское соглашение</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

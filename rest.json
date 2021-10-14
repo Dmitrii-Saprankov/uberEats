@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Макдоналдс",
+        "image": "images/McD.jpg",
+        "desc": "₽₽ • Бургеры",
+        "time": "25-35 мин"
+    },
+    {
+        "name": "DimSum & Co",
+        "image": "images/DimSum.jpg",
+        "desc": "₽ • Японская • Китайская • Азиатская",
+        "time": "40-50 мин"
+    },
+    {
+        "name": "ДвижОК",
+        "image": "images/Dvizhok.jpg",
+        "desc": "₽ • Американская • Европейская",
+        "time": "35-45 мин"
+    },
+    {
+        "name": "НЯ — NHA",
+        "image": "images/NZA.jpg",
+        "desc": "₽₽ • Вьетнамская",
+        "time": "30-40 мин"
+    },
+    {
+        "name": "Точка Дзы",
+        "image": "images/Tochka.jpg",
+        "desc": "₽₽ • Вьетнамская",
+        "time": "40-50 мин"
+    },
+    {
+        "name": "Cinnabon",
+        "image": "images/Cinnabon.jpg",
+        "desc": "₽ • Выпечка • Десерты • Капкейки",
+        "time": "25-35 мин"
+    },
+    {
+        "name": "PIZZELOVE",
+        "image": "images/pizzalove.jpg",
+        "desc": "₽₽ • Пицца",
+        "time": "15-25 мин"
+    },
+    {
+        "name": "Zю кафе",
+        "image": "images/ZU.jpg",
+        "desc": "₽₽ • Японская",
+        "time": "25-35 мин"
+    },
+    {
+        "name": "Bar BQ Cafe",
+        "image": "images/BarBQ.jpg",
+        "desc": "₽₽₽ • Европейская",
+        "time": "30-40 мин"
+    },
+    {},
+    {},
+    {}
+]
